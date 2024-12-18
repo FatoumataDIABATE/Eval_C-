@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Geometrie.BLL\Geometrie.BLL.csproj" />
+    <ProjectReference Include="..\Geometrie.Console\Geometrie.Console.csproj" />
     <ProjectReference Include="..\Geometrie.DAL\Geometrie.DAL.csproj" />
   </ItemGroup>
 

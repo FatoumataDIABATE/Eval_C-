@@ -1,3 +1,4 @@
+using Geometrie.API.DTO;
 using Geometrie.DAL;
 using Geometrie.DTO;
 using Geometrie.Service;
@@ -13,6 +14,7 @@ builder.Services.AddSwaggerGen();
 
 //pour ajouter un service dans le conteneur d'injection de dépendances
 builder.Services.AddSingleton<IPoint_Service>(new Point_Service(new GeometrieContext()));
+builder.Services.AddSingleton<IService<Cercle_DTO>>(new Cercle_Service(new GeometrieContext()));
 
 
 var app = builder.Build();
