@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Geometrie.BLL.Tests
+namespace Geometrie.DAL.Tests
 {
-    internal class CercleTests
+    internal class Cercle_DALTests
     {
     }
 }
